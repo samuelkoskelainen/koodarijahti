@@ -6,7 +6,6 @@
   "scripts": {
     "start": "nodemon index.js"
   },
-  "homepage": "https://agile-tundra-77439.herokuapp.com/",
   "keywords": [],
   "author": "",
   "license": "ISC",
