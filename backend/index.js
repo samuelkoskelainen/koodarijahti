@@ -2,9 +2,9 @@ const express = require('express')
 const app = express()
 const path = require('path')
 app.use(express.static(__dirname + "/client/build"))
-  ('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, "..", "client", "build", "index.html"))
-  })
+app.use('*', (req, res) => {
+  res.sendFile(path.resolve(__dirname, "..", "client", "build", "index.html"))
+})
 
 
 const server = require('http').createServer(app)
