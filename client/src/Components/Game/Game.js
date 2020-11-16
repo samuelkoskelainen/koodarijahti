@@ -3,7 +3,7 @@ import { w3cwebsocket as W3CWebSocket } from 'websocket'
 import { Link } from 'react-router-dom'
 import './Game.css'
 
-const socket = new W3CWebSocket(`wss://https://agile-tundra-77439.herokuapp.com/`)
+const socket = new W3CWebSocket(`wss://agile-tundra-77439.herokuapp.com`)
 const Game = (props) => {
   const [clientId, setClientId] = useState('')
   const [counter, setCounter] = useState(0)
