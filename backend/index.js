@@ -11,7 +11,7 @@ const server = require('http').createServer(app)
 
 const websocket = require('ws')
 const wss = new websocket.Server({ server: server })
-const port = process.env.PORT || 8000
+const port = 8000
 const game = {
   "counter": 0
 }
