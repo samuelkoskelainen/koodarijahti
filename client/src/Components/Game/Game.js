@@ -5,7 +5,7 @@ import './Game.css'
 
 const port = process.env.PORT || 8000
 
-const socket = new W3CWebSocket(`ws://https://agile-tundra-77439.herokuapp.com/:${port}`)
+const socket = new W3CWebSocket(`ws://localhost:${port}`)
 const Game = (props) => {
   const [clientId, setClientId] = useState('')
   const [counter, setCounter] = useState(0)
