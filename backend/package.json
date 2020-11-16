@@ -1,6 +1,5 @@
 {
   "name": "backend",
-  "homepage": "https://agile-tundra-77439.herokuapp.com/",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
