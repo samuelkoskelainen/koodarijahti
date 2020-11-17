@@ -94,12 +94,10 @@ const Game = (props) => {
   return (
     <div className="ButtonSection">
       <div className="player">
-        <p>player: {clientName}</p>
+        <p><strong>player</strong>: {clientName}</p>
       </div>
-      <div className="info">
-        <p>clicks to reward: {clicksToReward}</p>
-      </div>
-      <p>points: {points}</p>
+      <p className="pstyle"><strong>clicks to reward</strong>: {clicksToReward}</p>
+      <p className="pstyle"><strong>points</strong>: {points}</p>
       <div className="buttons">
         <button className="PlayButton" onClick={clicks > 0 ? buttonClick : null}>{clicks}</button>
       </div>

@@ -14,10 +14,6 @@
   text-decoration-line: none;
 }
 
-.header {
-  margin-bottom: 100px;
-}
-
 .inputStyle {
   text-align: center;
   border: none;
@@ -29,12 +25,16 @@
   height: 40px;
   border-radius: 50px;
   margin: 0 20px;
-  margin-top: 40px;
   box-shadow: inset 4px 4px 8px 0 rgba(0, 0, 0, 0.25),
     inset -8px -8px 16px 0 rgba(255, 255, 255, 0.3);
 }
 
+.inputStyle::placeholder {
+  color: rgb(37, 37, 37);
+}
+
 .LobbyButton {
+  font-size: xx-large;
   border: none;
   display: inline-flex;
   justify-content: center;
@@ -66,7 +66,7 @@ a {
 }
 
 .link {
-  margin-top: 170px;
+  margin-top: 80px;
   opacity: 0.9;
   color: rgba(0, 0, 0, 0.8);
   font-size: '15px';

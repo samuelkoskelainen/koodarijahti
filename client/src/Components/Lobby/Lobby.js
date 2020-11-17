@@ -8,7 +8,7 @@ const Lobby = () => {
 
   return (
     <div className="Lobby">
-      <h1>Button Game</h1>
+      <h1 className="buttongame">Button Game</h1>
       <p className="header">2020 - Koodarijahti</p>
       <input
         ref={input}
