@@ -1,10 +1,10 @@
-## 2020 Koodarijahti
+# 2020 Koodarijahti
 
 - link to Heroku: [click this](https://agile-tundra-77439.herokuapp.com/)
 
-## Application rules in Finnish
+# Application rules in Finnish
 
-# Painikepeli
+## Painikepeli
 
 Tavoitteena on toteuttaa yksinkertainen moninpeli, jota pelataan painamalla painiketta.
 Painikkeen painaminen maksaa yhden pisteen, joita pelaajalla on lähtötilanteessa 20.
