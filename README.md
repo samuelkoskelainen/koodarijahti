@@ -1,6 +1,6 @@
 # 2020 Koodarijahti
 
-- link to Heroku: [click this](https://agile-tundra-77439.herokuapp.com/)
+- link to Heroku: [click this](https://koodarijahti-painikepeli.herokuapp.com/)
 
 # Application rules in Finnish
 
